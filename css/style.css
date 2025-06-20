@@ -28,11 +28,14 @@ body {
 }
 
 .sidebar ul {
-  display: flex;
+   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
   list-style: none;
+  line-height: 20px;
+  background-color: white;
+  border:2px solid black
 }
 
 .sidebar li {
