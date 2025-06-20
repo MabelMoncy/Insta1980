@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/profile.css">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+        
+</head>
+<body>
+
+    <section class="personal-data">
+        <div class="profile-photo">
+            <img src="images/vincy_joseph.jpeg" alt="profilepic">
+        </div>
+        <div class="name-age">
+            Name: Vincy clever <br><br>
+            Age/DOB: 28, 01 jan 1952 <br><br>
+            Bio: Rock all time with music
+        </div>
+        
+    </section>
+    <section class="post">
+        <div class="user-info">
+          <span class="username">@vinyl_guy [latest post] </span>
+          <span class="bio">Vinyls. Walkmans. Rock n Roll.</span>
+        </div>
+        <img src="images/maxresdefault.jpg" class="post-img" alt="Post Image">
+        <p class="caption">Spinning Queen’s *Radio Ga Ga* all day! :-)</p>
+      <div class="buttons">
+          <button onclick="like(this)">♥ LIKE</button>
+          <button onclick="comment(this)">💬 COMMENT</button>
+          <button onclick="share(this)">↪ SHARE</button>
+        </div>
+      </section>
+      <body>
+      <div id="like-output" class="output"></div>
+      <div id="comment-output" class="output"></div>
+      <div id="share-output" class="output"></div>
+
+ <!-- Post 2 -->
+  <section class="post">
+    <div class="user-info">
+          <span class="username">@vinyl_guy [posted on Sep 02,1982] </span>
+          <span class="bio">Vinyls. Walkmans. Rock n Roll. 🎸</span>
+        </div>
+    <img src="images/groovy.jpeg" class="post-img" alt="Vinyl Collection">
+    <p class="caption">Just added Bowie and Fleetwood Mac to my collection. Groovy vibes only! 🎶</p>
+    <div class="buttons">
+          <button onclick="like(this)">♥ LIKE</button>
+          <button onclick="comment(this)">💬 COMMENT</button>
+          <button onclick="share(this)">↪ SHARE</button>
+        </div>
+  </section>
+      <div id="like-output" class="output"></div>
+      <div id="comment-output" class="output"></div>
+      <div id="share-output" class="output"></div>
+
+  <!-- Post 3 -->
+  <section class="post">
+    <div class="user-info">
+          <span class="username">@vinyl_guy [posted on  July 5, 1980] </span>
+          <span class="bio">Vinyls. Walkmans. Rock n Roll. 🎸</span>
+        </div>
+    <img src="images/walkman.jpg" class="post-img" alt="Walkman">
+    <div class="retro-audio-player">
+      just play and enjoy listening
+    <audio id="myAudio">
+      <source src="audio/videoplayback.m4a" type="audio/mpeg">
+    </audio>
+
+    <div class="controls">
+      <button onclick="playAudio()">▶ Play</button>
+      <button onclick="pauseAudio()">⏸ Pause</button>
+    </div>
+  </div>
+
+
+    <p class="caption">Walkman in hand, mixtape on play. This is how I roll. 💿😎</p>
+    <div class="buttons">
+      <button onclick="like(this)">♥ LIKE</button>
+      <button onclick="comment(this)">💬 COMMENT</button>
+      <button onclick="share(this)">↪ SHARE</button>
+    </div>
+  </section>
+
+  <!-- Post 4 -->
+   
+  <section class="post">
+    <div class="user-info">
+          <span class="username">@vinyl_guy [posted on  June 15, 1980] </span>
+          <span class="bio">Vinyls. Walkmans. Rock n Roll. 🎸</span>
+        </div>
+    <img src="images/concert.webp" class="post-img" alt="Concert">
+    <p class="caption">Live concerts just hit different in the 80s. Rocked out with the crew! 🤘</p>
+    <div class="buttons">
+     <button onclick="like(this)">♥ LIKE</button>
+      <button onclick="comment(this)">💬 COMMENT</button>
+      <button onclick="share(this)">↪ SHARE</button>
+    </div>
+  </section>
+  <script src="js/script.js"></script>
+
+</body>
+</html>
